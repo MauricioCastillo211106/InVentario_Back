@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/v1/inventary/product',productRouter);
 
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 8080;
 app.listen(port, () => {
   console.log(`Corriendo en el puerto ${port}`);
 });
